@@ -1,0 +1,67 @@
+# .gitignore for a .NET solution
+# Generated for Visual Studio, .NET CLI, and common editors
+
+## Build artifacts
+bin/
+obj/
+artifacts/
+publish/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+.nuget/
+packages/
+
+## Logs and databases
+*.log
+logs/
+TestResults/
+*.trx
+*.db
+*.sqlite
+
+## macOS
+.DS_Store
+
+## Node/npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+## ASP.NET / Blazor
+wwwroot/lib/
+scopedcss/
+obj/**/staticwebassets*
+
+## User secrets and local config
+secrets.json
+appsettings.Development.json
+
+## EF Core scaffolding
+ScaffoldingReadme.txt
+
+## Coverage / IDE extras
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore publish output
+/PublishOutput/
+
+# Keep generated files out
+*.generated.cs
+
+# End of file
